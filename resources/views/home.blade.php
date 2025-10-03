@@ -21,7 +21,9 @@
     <script>
         pannellum.viewer('panorama', {
             "type": "equirectangular",
-            "panorama": "https://pannellum.org/images/alma.jpg"
+            "panorama": "https://pannellum.org/images/alma.jpg",
+            "hotSpotDebug": true,
+            "autoLoad": true
         });
     </script>
 
