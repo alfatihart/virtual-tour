@@ -9,8 +9,8 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
     <style>
         #panorama {
-            width: 600px;
-            height: 400px;
+            width: 100vw;
+            height: 100vh;
         }
     </style>
 </head>
