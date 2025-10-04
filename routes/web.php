@@ -13,6 +13,6 @@ Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 
 Route::middleware('auth')->group(function () {
     Route::get('/admin', function () {
-        return view('pages.admin.home.index');
+        return view('pages.admin.dashboard.index');
     });
 });
