@@ -4,7 +4,7 @@ use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('home');
+    return view('pages.guest.index');
 });
 
 Route::get('/login', [AuthController::class, 'index'])->name('login');
